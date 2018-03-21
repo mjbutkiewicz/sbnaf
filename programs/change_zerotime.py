@@ -38,7 +38,7 @@ with open(OUTPUT_FILE, 'w') as writedata:
             if "ZERO TIME.....:" in line:
                 # print(n)
                 new_line = line.replace(zero_before, zero_after)
-                if n < 58:
+                if n < len(zeros)-1:
                     n += 1
                 else:
                     pass
