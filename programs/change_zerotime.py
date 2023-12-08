@@ -26,8 +26,8 @@ for item in range(len(zeros)):
     zero_JDs.append(zero_JD)
     item += 1
 
-# print(zeros)  # zero time bez poprawek, prosto z pliku
-# print(zero_JDs)  # zero time z poprawkami
+# print(zeros)  # raw zero time
+# print(zero_JDs)  # corrected zero time
 n = 0
 with open(OUTPUT_FILE, 'w') as writedata:
     with open(INPUT_FILE, 'r') as filedata:
